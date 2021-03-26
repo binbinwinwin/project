@@ -1,0 +1,18 @@
+/* body{
+    background: radial-gradient(49% 160%, #FCFCFC 0, #FFAAD5 100%);
+    font-size: 14px;
+} */
+body{
+    height: 600px;
+    background: url(../images/thank.jpg) no-repeat center;
+    background-size: cover;
+}
+.done{
+    color:white;
+}
+.botp{
+    margin-top: 250px;
+    text-align: center;
+    color:white;
+    font-size: 25px;
+}

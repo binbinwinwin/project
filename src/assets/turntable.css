@@ -1,0 +1,73 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        outline: none;
+    }
+
+    #rotary-table {
+        width: 340px;
+        height: 349px;
+        position: relative;
+        margin: auto;
+        background-color: antiquewhite;
+    }
+        .award {
+            width: 90px;
+            height: 96px;
+            line-height: 96px;
+            text-align: center;
+            float: left;
+            position: absolute;
+            overflow: hidden;
+            background-color: aquamarine;
+
+            &.active {
+                background-color: darkgoldenrod;
+            }
+
+            &.award0 {
+                top: 21px;
+                left: 21px;
+            }
+            &.award1 {
+                top: 21px;
+                left: 125px;
+            }
+            &.award2 {
+                top: 21px;
+                right: 22px;
+            }
+            &.award3 {
+                top: 126px;
+                right: 22px;
+            }
+            &.award4 {
+                bottom: 22.5px;
+                right: 22px;
+            }
+            &.award5 {
+                bottom: 22.5px;
+                right: 125.5px;
+            }
+            &.award6 {
+                bottom: 22.5px;
+                left: 21px;
+            }
+            &.award7 {
+                top: 126px;
+                left: 21px;
+            }
+        }
+        #start-btn {
+            position: absolute;
+            top: 125px;
+            left: 124px;
+            width: 90px;
+            height: 96px;
+            line-height: 90px;
+            text-align: center;
+            background-color: coral;
+        }
+    }
