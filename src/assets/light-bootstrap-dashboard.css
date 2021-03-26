@@ -2090,7 +2090,7 @@ fieldset[disabled] .form-control {
 }
 
 .navbar.fixed {
-    width: calc(100% - $sidebar-width);
+    width: calc(100%);
     right: 0;
     left: auto;
     border-radius: 0;
